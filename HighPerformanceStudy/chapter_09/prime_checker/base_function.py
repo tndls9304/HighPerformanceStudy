@@ -5,6 +5,7 @@ from HighPerformanceStudy.utils import time_fn
 ALL_DONE = b'WORK_FINISHED'
 FINISHED_PROCESSING = b'PROCESS_FINISHED'
 FLAG_CLEAR = b'0'
+FLAG_NAME = b'redis_primes_flag'
 FLAG_SET = b'1'
 CHECK_EVERY = 1000
 
