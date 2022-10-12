@@ -21,7 +21,7 @@ def binary_search(array, target):
         if array[mid] > target:
             i_max = mid
         elif array[mid] < target:
-            i_min = mid+1
+            i_min = mid + 1
         else:
             return mid
 
@@ -50,6 +50,5 @@ def find_closest(array, target):
 
 
 if __name__ == "__main__":
-    target_list = [3, 5, 22, 1, 9, 41, 15, 4, 2, 8]*1000 + [23]
-    print(linear_search(target_list, 23))
-    print(target_list[linear_search(target_list, 23)])
+    target_list = [3, 5, 22, 1, 9, 41, 15, 4, 2, 8]*100000 + [23]
+    result = linear_search(target_list, 23)

@@ -5,7 +5,6 @@ List: dynamic array\
 Tuple: immutable static array
 
 ### Time complexity for operation
-
 - Search
   - access by index: O(1)
   - access by value: O(log(n))
@@ -16,7 +15,6 @@ Tuple: immutable static array
   - sort: O(n log(n)) ([Timsort](https://en.wikipedia.org/wiki/Timsort))
 
 ### Other search approach
-
 Change a list to a dictionary with unique key\
 Since dictionary access is O(1)
 
